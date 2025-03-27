@@ -25,7 +25,8 @@ const nextConfig = {
     return [
       {
         source: '/api/:path*',
-        destination: 'https://letterboxd-recommender-api.vercel.app/:path*',
+        //destination: 'https://letterboxd-recommender-api.vercel.app/:path*',
+        destination: 'http://127.0.0.1:8000/:path*',
       },
     ]
   },
