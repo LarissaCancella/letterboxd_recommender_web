@@ -25,7 +25,7 @@ const nextConfig = {
     return [
       {
         source: '/api/:path*',
-        destination: 'https://letterboxd-recommender-api.vercel.app/:path*',
+        destination: 'https://cinematch-api-9612c756622d.herokuapp.com/:path*',
       },
     ]
   },
