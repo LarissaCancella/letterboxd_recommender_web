@@ -25,7 +25,8 @@ const nextConfig = {
     return [
       {
         source: '/api/:path*',
-        destination: 'https://cinematch-api-9612c756622d.herokuapp.com/:path*',
+        //destination: 'https://cinematch-api-9612c756622d.herokuapp.com/:path*',
+        destination: 'https://cinematch.up.railway.app/:path*',
       },
     ]
   },
