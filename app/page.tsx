@@ -86,7 +86,7 @@ export default function Home() {
           <div className="w-12 h-12 rounded-full bg-primary/10 text-primary flex items-center justify-center mx-auto mb-4">
             <Film className="w-6 h-6" />
           </div>
-          <CardTitle className="text-2xl text-white">Film Recommendations</CardTitle>
+          <CardTitle className="text-2xl text-white">CineMatch</CardTitle>
           <CardDescription className="text-zinc-400">
             Enter your Letterboxd username to get personalized film recommendations
           </CardDescription>
