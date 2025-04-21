@@ -11,7 +11,6 @@ export default function RecommendationsPage() {
     const storedRecommendations = localStorage.getItem('movieRecommendations');
     if (storedRecommendations) {
       setRecommendations(JSON.parse(storedRecommendations));
-      // Opcional: limpar os dados do localStorage após lê-los
       localStorage.removeItem('movieRecommendations');
     }
   }, []);
