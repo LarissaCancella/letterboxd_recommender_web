@@ -110,7 +110,7 @@ export default function Home() {
                   <label className="text-sm font-medium text-zinc-200">Performance vs. Quality</label>
                   <TooltipProvider>
                     <Tooltip>
-                      <TooltipTrigger>
+                      <TooltipTrigger onClick={(e) => e.preventDefault()}>
                         <HelpCircle className="w-4 h-4 text-zinc-400" />
                       </TooltipTrigger>
                       <TooltipContent>
@@ -143,7 +143,7 @@ export default function Home() {
                   <label className="text-sm font-medium text-zinc-200">Movie Popularity Filter</label>
                   <TooltipProvider>
                     <Tooltip>
-                      <TooltipTrigger>
+                      <TooltipTrigger onClick={(e) => e.preventDefault()}>
                         <HelpCircle className="w-4 h-4 text-zinc-400" />
                       </TooltipTrigger>
                       <TooltipContent>
